@@ -13,6 +13,8 @@
 		5268056A1B267B60001CEFDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526805691B267B60001CEFDE /* Images.xcassets */; };
 		5268056D1B267B60001CEFDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5268056B1B267B60001CEFDE /* LaunchScreen.xib */; };
 		526805791B267B60001CEFDE /* StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526805781B267B60001CEFDE /* StatusTests.swift */; };
+		526805831B267EFC001CEFDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526805821B267EFC001CEFDE /* User.swift */; };
+		526805871B268044001CEFDE /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526805861B268044001CEFDE /* Update.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		526805721B267B60001CEFDE /* StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526805771B267B60001CEFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526805781B267B60001CEFDE /* StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTests.swift; sourceTree = "<group>"; };
+		526805821B267EFC001CEFDE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		526805861B268044001CEFDE /* Update.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		5268055F1B267B60001CEFDE /* Status */ = {
 			isa = PBXGroup;
 			children = (
+				526805861B268044001CEFDE /* Update.swift */,
+				526805821B267EFC001CEFDE /* User.swift */,
 				526805621B267B60001CEFDE /* AppDelegate.swift */,
 				526805641B267B60001CEFDE /* ViewController.swift */,
 				526805661B267B60001CEFDE /* Main.storyboard */,
@@ -214,6 +220,8 @@
 			files = (
 				526805651B267B60001CEFDE /* ViewController.swift in Sources */,
 				526805631B267B60001CEFDE /* AppDelegate.swift in Sources */,
+				526805871B268044001CEFDE /* Update.swift in Sources */,
+				526805831B267EFC001CEFDE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
